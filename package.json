@@ -1,0 +1,15 @@
+{
+  "name": "@mee/monorepo-expo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:bare-ios": "yarn workspace @mee/expo-app-bare expo start --clear --ios",
+    "start:blank-ios": "yarn workspace @mee/expo-app-blank expo start --clear --ios"
+  },
+  "devDependencies": {}
+}
